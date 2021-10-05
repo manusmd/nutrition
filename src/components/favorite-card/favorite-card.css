@@ -11,14 +11,17 @@
 
 .favorite-card--fruits {
   background-color: #fff2f0;
+  color: #4d0a00;
 }
 
 .favorite-card--vegetables {
   background-color: #eff7ee;
+  color: #1c3418;
 }
 
 .favorite-card--snacks {
   background-color: #fff8eb;
+  color: #4d3200;
 }
 
 .selection {
