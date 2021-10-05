@@ -24,7 +24,7 @@
   color: #4d3200;
 }
 
-.selection {
+.container {
   display: flex;
   gap: 1em;
 }
