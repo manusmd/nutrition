@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 23.5rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.divSelection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 3rem;
+  border-radius: 2em;
+}
+
+.container span {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  place-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.unselected {
+  background-color: var(--color-secondary-light);
+  color: var(--color-secondary);
+}
+
+.food {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.recipes {
+  border-radius: 0 1rem 1rem 0;
+}
