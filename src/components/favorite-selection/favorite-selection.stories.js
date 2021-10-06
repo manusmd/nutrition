@@ -6,4 +6,4 @@ export default {
   parameters: { layout: "centered" },
 };
 
-export const fruits = () => favoriteSelection;
+export const food = () => favoriteSelection;
