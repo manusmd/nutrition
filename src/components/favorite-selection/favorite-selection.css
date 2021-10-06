@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 23.5rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.divSelection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 3rem;
+  border-radius: 1em;
+  width: 80%;
+  overflow: hidden;
+}
+
+.container span {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  place-items: center;
+  justify-content: center;
+}
+
+.divSelection__span_selected {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.divSelection__span_unselected {
+  background-color: var(--color-secondary-light);
+  color: var(--color-secondary);
+}
