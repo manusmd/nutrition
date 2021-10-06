@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr;
   height: 3rem;
   border-radius: 2em;
+  width: 80%;
 }
 
 .container span {
@@ -22,7 +23,7 @@
   justify-content: center;
 }
 
-.selected {
+.divSelection__span_selected {
   background-color: var(--color-secondary);
   color: white;
 }
