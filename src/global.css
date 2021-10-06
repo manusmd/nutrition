@@ -9,8 +9,9 @@
 :root {
   --color-primary: #91c788;
   --color-secondary: #ff8473;
-  --color-maintext: #000000;
-  --color-subcontent: #a9a9a9;
+  --color-text-main: #000000;
+  --color-content-sub: #a9a9a9;
+  --color-background-main: #E5E5E5;
   --font-family: "Signika", sans-serif;
 }
 
