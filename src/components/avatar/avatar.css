@@ -3,8 +3,8 @@
 }
 
 .avatar__image {
-  width: 160px;
-  height: 160px;
+  width: 10rem;
+  height: 10rem;
 }
 
 .avatar__badge {
@@ -12,8 +12,8 @@
   position: absolute;
   bottom: 5%;
   right: 5%;
-  width: 2em;
-  height: 2em;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: var(--color-secondary);
   justify-content: center;
