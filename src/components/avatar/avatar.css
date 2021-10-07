@@ -16,7 +16,7 @@
   right: 1.25rem;
   background-color: var(--color-secondary);
   border-radius: 50%;
-  border: 0.2em solid white;
+  border: 2px solid white;
   display: grid;
   place-items: center;
 }
