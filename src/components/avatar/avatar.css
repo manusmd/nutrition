@@ -1,5 +1,22 @@
 .avatar {
+  position: relative;
+}
+
+.profilePicture {
+  width: 160px;
+  height: 160px;
+}
+
+.batch {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  background-color: var(--color-secondary);
+  justify-content: center;
+  align-items: center;
+  border: 0.2em solid white;
 }
